@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="./images/drive-logo.svg" type="image/x-icon">
+    <title>Google Drive Desktop</title>
+  </head>
+  <body>
+    <header>
+      <button id="drive" class="active">
+        <img src="./images/drive-logo.svg" alt="">
+      </button>
+      <button id="docs">
+        <img src="./images/docs-logo.svg" alt="">
+      </button>
+      <button id="photos">
+        <img src="./images/photos-logo.svg" alt="">
+      </button>
+    </header>
+    <webview class="webview" src="https://drive.google.com/drive/"></webview>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
