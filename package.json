@@ -4,8 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "dev": "set NODE_ENV=development&&electron ."
+    "start": "set NODE_ENV=development&&electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
